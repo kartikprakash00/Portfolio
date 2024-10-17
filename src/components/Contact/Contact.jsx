@@ -9,6 +9,7 @@ import github_white from '../../assets/github_white.png'
 
 
 const access_key = import.meta.env.VITE_ACCESS_KEY
+const site_key = import.meta.env.VITE_SITE_KEY
 
 const Contact = () => {
 
@@ -77,6 +78,7 @@ const Contact = () => {
                     <input type="email" placeholder='Enter your email' name='email' required />
                     <label htmlFor="">Write Your Message Here</label>
                     <textarea name="message" rows="8" placeholder='Enter your message' required></textarea>
+                    <div class="g-recaptcha" data-sitekey={site_key}></div>
                     <button className='contact-submit' type="submit">Submit now</button>
                 </form>
             </div>
