@@ -1,0 +1,147 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 20px 0px 0px;
+    padding-top: 20px;
+    padding-bottom: 4px;
+    gap: 500px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.nav-name {
+    position: relative;
+    cursor: pointer;
+}
+
+.nav-name:hover {
+    color: #db8f48;
+}
+
+
+.nav-name h2 {
+    padding: 0px 10px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.nav-name img {
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    font-size: 20px;
+}
+
+.nav-menu li {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.nav-menu li img {
+    display: flex;
+    margin: auto;
+}
+
+.nav-connect {
+    padding: 20px 40px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.nav-connect:hover {
+    transform: scale(1.05);
+}
+
+.anchor-link {
+    text-decoration: none;
+    color: white;
+}
+
+.anchor-link:hover {
+    color: #db8f48;
+}
+
+.nav-mob-close {
+    display: none;
+}
+
+.nav-mob-open {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        margin: 0;
+        height: 70px;
+        padding: 0;
+
+    }
+
+    .nav-mob-open {
+        display: block;
+        position: fixed;
+        right: 30px;
+        margin: 50px 0px 50px 25px;
+        cursor: pointer;
+    }
+
+    .nav-mob-close {
+        display: block;
+        position: relative;
+        top: 0;
+        left: 225px;
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .nav-name {
+        position: fixed;
+        left: 0;
+        margin: 50px 0px 50px 25px;
+    }
+
+    .nav-menu {
+        position: fixed;
+        flex-direction: column;
+        align-items: start;
+        top: 0;
+        padding: 30px;
+        gap: 30px;
+        background-color: #1f0016;
+        width: 250px;
+        height: 100vh;
+        z-index: 2;
+        transition: right 0.5s;
+        right: -420px;
+    }
+
+    .nav-menu li {
+        font-size: 25px;
+        padding-left: 20px;
+        flex-direction: row;
+        gap: 20px;
+
+    }
+}

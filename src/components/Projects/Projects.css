@@ -1,0 +1,141 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+
+.proj-title {
+    position: relative;
+}
+
+.proj-title h1 {
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.proj-title img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.proj-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.proj-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+    width: 100%;
+    max-width: 900px;
+}
+
+.proj-image:hover {
+    transform: scale(1.09);
+    transition: 0.5s;
+    box-shadow: 0px 10px 30px rgba(121, 0, 250, 0.2);
+    border: 2px solid #b515ff51;
+}
+
+.proj-image .image {
+    width: 50vh;
+    height: auto;
+    border-radius: 10px;
+}
+
+.proj-details {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 20px;
+    gap: 10px;
+    max-width: 50%;
+}
+
+.proj-details h3 {
+    font-size: 30px;
+    font-weight: 600;
+    background: linear-gradient(264deg, #df8908 80.09%, #b415ff 106.28%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.proj-details p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.proj-details img {
+    margin: 8px;
+    border-radius: 15px 50px 30px 5px;
+    transition: 0.5s;
+}
+
+.proj-details img:hover {
+    transform: scale(1.13);
+    transition: 0.5s;
+}
+
+@media(max-width:768px) {
+    .projects {
+        align-items: center;
+        gap: 70px;
+        margin: 50px 70px;
+    }
+
+    .proj-title {
+        margin-top: 60px;
+    }
+
+    .proj-title h1 {
+        padding: 0;
+        font-size: 50px;
+    }
+
+    .proj-title img {
+        width: 130px;
+        margin-right: -20px;
+    }
+
+    .proj-container {
+        gap: 60px;
+    }
+
+    .proj-image {
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .proj-image .image {
+        width: 100%;
+    }
+
+    .proj-details {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .proj-details img {
+        border-radius: 15px 15px 5px 5px;
+    }
+}
