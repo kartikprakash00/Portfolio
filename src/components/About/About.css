@@ -119,13 +119,13 @@
     }
 
     .about-title h1 {
-        font-size: 50px;
+        font-size: 35px;
         padding: 0;
     }
 
     .about-title img {
-        width: 130px;
-        right: -20px;
+        width: 100px;
+        right: -10px;
     }
 
     .about-sections {
@@ -138,14 +138,13 @@
     }
 
     .about-para {
-        font-size: 18px;
+        font-size: 16px;
         line-height: 32px;
     }
 
     .about-skill {
         gap: 20px;
         align-items: center;
-        padding-left: 20px;
     }
 
     .about-skill img {

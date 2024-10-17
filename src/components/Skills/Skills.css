@@ -93,12 +93,12 @@
 
     .skills-title h1 {
         padding: 0;
-        font-size: 50px;
+        font-size: 35px;
     }
 
     .skills-title img {
-        width: 130px;
-        margin-right: -20px;
+        width: 100px;
+        margin-right: -10px;
     }
 
     .skills-sections {
@@ -118,10 +118,11 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        gap: 10px;
     }
 
     .skills-left img {
-        margin: 6px;
+        margin: 0px;
         border-radius: 15px 15px 5px 5px;
     }
 
@@ -130,7 +131,7 @@
     }
 
     .skills-right p {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .source-code-button {
