@@ -12,6 +12,7 @@ const mywork_data = [
             react: "https://img.shields.io/badge/React%20-61DBFB?style=for-the-badge&logo=react&logoColor=black",
             js: "https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black",
             mongo: "https://img.shields.io/badge/MongoDB%20-3e9c38?style=for-the-badge&logo=mongodb&logoColor=white",
+            cloudinary: "https://img.shields.io/badge/cloudinary-%233447C5?style=for-the-badge&logo=cloudinary",
             node: "https://img.shields.io/badge/Node%20JS%20-5cac47?style=for-the-badge&logo=nodedotjs&logoColor=white",
             express: "https://img.shields.io/badge/express%20js-black?style=for-the-badge&logo=nodedotjs&logoColor=white",
             tailwind: "https://img.shields.io/badge/TAILWINDCSS-gray?style=for-the-badge&logo=tailwindcss",
