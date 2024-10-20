@@ -26,7 +26,7 @@ const mywork_data = [
         w_img: project2_img,
         w_desc: "A 2048 game dynamic project using HTML, Javascrip, CSS, MongoDB and Express",
         w_tech: {
-            html: "https://img.shields.io/badge/HTML5%20-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white",
+            react: "https://img.shields.io/badge/React%20-61DBFB?style=for-the-badge&logo=react&logoColor=black",
             js: "https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black",
             mongo: "https://img.shields.io/badge/MongoDB%20-3e9c38?style=for-the-badge&logo=mongodb&logoColor=white",
             node: "https://img.shields.io/badge/Node%20JS%20-5cac47?style=for-the-badge&logo=nodedotjs&logoColor=white",
