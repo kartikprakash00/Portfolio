@@ -35,8 +35,8 @@ const mywork_data = [
             css: "https://img.shields.io/badge/CSS%20-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"
 
         },
-        w_url: "",
-        w_code: "https://github.com/kartikprakash00/TileVerse"
+        w_url: "https://tileverse.vercel.app",
+        w_code: "https://github.com/kartikprakash00/TileVerse-React"
     },
     {
         w_no: 3,
